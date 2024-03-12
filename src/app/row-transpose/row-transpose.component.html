@@ -1,0 +1,6 @@
+<!-- <div class="flex justify-center align-center h-100 w-100"> -->
+<ag-grid-angular [columnDefs]="colData" [rowData]="rowData$ | async" (gridReady)="onGridReady($event)"
+    class="ag-theme-quartz h-full" style="height: 100%; width: 100%; text-align: center;" [statusBar]="statusBar"
+    [enableRangeSelection]="true"></ag-grid-angular>
+
+<!-- </div> -->

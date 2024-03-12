@@ -1,0 +1,338 @@
+{
+    "config": {
+        "componentType": "GRID",
+        "componentTypeId": "",
+        "componentId": "component-88060152",
+        "componentName": "Grid ComponentWith Row All Transpose",
+        "cubeId": "cube-36826068",
+        "type": "GRID",
+        "storeId": "cube-36826068",
+        "ValueAreaDetails": [
+            {
+                "member": "Case Id",
+                "sortBy": "Case Id",
+                "sortingDirection": "NONE",
+                "hidden": false,
+                "tableName": "measures",
+                "dataIndex": "Case Id",
+                "displayName": "Case Id",
+                "hierarchyChildren": [],
+                "type": "STRING",
+                "filterOn": "All",
+                "derivedStatus": false,
+                "scriptQuery": null,
+                "convertedStatus": false,
+                "soratble": false,
+                "valueMember": "Case Id",
+                "aggregateFn": "COUNT",
+                "format": "0,000.00",
+                "measureType": null,
+                "summaryAggregation": "COUNT",
+                "reportGridConfig": {
+                    "viewTypeItems": [
+                        "summary"
+                    ]
+                },
+                "chartConfig": {
+                    "seriesType": "line",
+                    "seriesColor": null,
+                    "tooltipText": "",
+                    "seriesVisible": true,
+                    "legend_selection": true
+                },
+                "colorConfig": {
+                    "colorFormatType": "Color",
+                    "colorType": "Single Color",
+                    "seriesColor": null,
+                    "customColorSeries": [],
+                    "colorGroup": "default",
+                    "colorScript": ""
+                },
+                "rowOverTip": false,
+                "showData": true,
+                "conditionalFormatConfig": null,
+                "negValueFormat": "-value",
+                "showInExcel": true,
+                "showInPDF": true,
+                "width": 100,
+                "textAlign": null,
+                "nullValueAs": "zero"
+            },
+            {
+                "member": "TAT in Days",
+                "sortBy": "TAT in Days",
+                "sortingDirection": "NONE",
+                "hidden": false,
+                "tableName": "measures",
+                "dataIndex": "TAT in Days",
+                "displayName": "TAT in Days",
+                "hierarchyChildren": [],
+                "type": "INTEGER",
+                "filterOn": "All",
+                "derivedStatus": false,
+                "scriptQuery": null,
+                "convertedStatus": false,
+                "soratble": false,
+                "valueMember": "TAT in Days",
+                "aggregateFn": "SUM",
+                "format": "0,000.00",
+                "measureType": null,
+                "summaryAggregation": "AVG",
+                "reportGridConfig": {
+                    "viewTypeItems": [
+                        "summary"
+                    ]
+                },
+                "chartConfig": {
+                    "seriesType": "line",
+                    "seriesColor": null,
+                    "tooltipText": "",
+                    "seriesVisible": true,
+                    "legend_selection": true
+                },
+                "colorConfig": {
+                    "colorFormatType": "Color",
+                    "colorType": "Single Color",
+                    "seriesColor": null,
+                    "customColorSeries": [],
+                    "colorGroup": "default",
+                    "colorScript": ""
+                },
+                "rowOverTip": false,
+                "showData": true,
+                "conditionalFormatConfig": null,
+                "negValueFormat": "-value",
+                "showInExcel": true,
+                "showInPDF": true,
+                "width": 100,
+                "textAlign": null,
+                "nullValueAs": "zero"
+            },
+            {
+                "member": "No of Open Cases",
+                "sortBy": "No of Open Cases",
+                "sortingDirection": "NONE",
+                "hidden": false,
+                "tableName": "kpis",
+                "dataIndex": "No of Open Cases",
+                "displayName": "No of Open Cases",
+                "hierarchyChildren": [],
+                "type": "FLOAT",
+                "filterOn": "All",
+                "derivedStatus": false,
+                "scriptQuery": null,
+                "convertedStatus": false,
+                "soratble": false,
+                "valueMember": "No of Open Cases",
+                "aggregateFn": null,
+                "format": "0,000.00",
+                "measureType": null,
+                "summaryAggregation": "AVG",
+                "reportGridConfig": {
+                    "viewTypeItems": [
+                        "summary"
+                    ]
+                },
+                "chartConfig": {
+                    "seriesType": "line",
+                    "seriesColor": null,
+                    "tooltipText": "",
+                    "seriesVisible": true,
+                    "legend_selection": true
+                },
+                "colorConfig": {
+                    "colorFormatType": "Color",
+                    "colorType": "Single Color",
+                    "seriesColor": null,
+                    "customColorSeries": [],
+                    "colorGroup": "default",
+                    "colorScript": ""
+                },
+                "rowOverTip": false,
+                "showData": true,
+                "conditionalFormatConfig": null,
+                "negValueFormat": "-value",
+                "showInExcel": true,
+                "showInPDF": true,
+                "width": 100,
+                "textAlign": null,
+                "nullValueAs": "zero"
+            }
+        ],
+        "FilterAreaDetails": [],
+        "ColumnAreaDetails": [],
+        "RowAreaDetails": [
+            {
+                "member": "Medicare Part",
+                "sortBy": null,
+                "sortingDirection": "NONE",
+                "hidden": false,
+                "tableName": "medicare_appeals",
+                "dataIndex": "Medicare Part",
+                "displayName": "Medicare Part",
+                "hierarchyChildren": [],
+                "type": "STRING",
+                "filterOn": "All",
+                "derivedStatus": false,
+                "scriptQuery": null,
+                "convertedStatus": true,
+                "convertedFrom": "measures",
+                "convertedTo": "dimension",
+                "soratble": false,
+                "rowMember": "Medicare Part",
+                "chartConfig": {
+                    "labelVisibilityFlag": true,
+                    "alignment": "center",
+                    "rotation": 0,
+                    "labelFromAxis": 10,
+                    "dataLabelColor": "000000",
+                    "xaxisColor": "000000",
+                    "format": "",
+                    "step": 1,
+                    "xaxisTitleColor": "000000",
+                    "titleFlag": true,
+                    "titleFromAxis": 0
+                },
+                "summaryAggregation": "NONE"
+            }
+        ],
+        "XaxisAreaDetails": [],
+        "YaxisAreaDetails": [],
+        "postAggregationConditions": [],
+        "conditions": {
+            "measures": [],
+            "dimensions": [],
+            "derivedFilters": [],
+            "convertedFilters": {
+                "measures": [],
+                "dimensions": []
+            }
+        },
+        "conditionConfig": {
+            "condition": false,
+            "conditionOn": {
+                "row": false,
+                "column": false,
+                "value": false,
+                "filter": false
+            }
+        },
+        "lookupDataset": [],
+        "derivedFieldType": null,
+        "factTableName": "medicare_appeals",
+        "databaseType": "postgres",
+        "calculatedMeasures": [],
+        "calculatedDimensions": [],
+        "parameters": [],
+        "convertedColumns": {
+            "measures": [],
+            "dimensions": []
+        },
+        "UIConfigs": {
+            "rowModel": {
+                "width": 100,
+                "cellColor": "",
+                "cellHeight": null,
+                "fontSize": null,
+                "fontColor": "",
+                "fontStyle": {
+                    "bold": false,
+                    "italic": false
+                },
+                "fontFamily": null,
+                "textAlignValue": null,
+                "textAlign": null
+            },
+            "columnModel": {
+                "hidden": false,
+                "headerTooltip": false,
+                "cellBorder": true,
+                "cellTransparent": false,
+                "cellColor": "gradient",
+                "cellHeight": 30,
+                "cellResize": true,
+                "fontSize": 13,
+                "fontColor": "000000",
+                "fontStyle": {
+                    "bold": false,
+                    "italic": false
+                },
+                "fontFamily": "helvetica, arial, verdana, sans-serif",
+                "textWrap": false,
+                "textAlign": "left",
+                "verticalAlign": false,
+                "zoom": 1
+            },
+            "dataModel": {
+                "cellBorder": true,
+                "cellTransparent": false,
+                "cellSelection": true,
+                "cellColor": "FFFFFF",
+                "resultColor": "FFFFFF",
+                "cellHeight": 17,
+                "fontSize": 12,
+                "fontColor": "000000",
+                "fontStyle": {
+                    "bold": false,
+                    "italic": false
+                },
+                "fontFamily": "helvetica, arial, verdana, sans-serif",
+                "textAlignValue": "right",
+                "textAlignRow": "left",
+                "textWrap": false,
+                "rowScript": ""
+            },
+            "rowGroupingModel": {
+                "rowgrouping": false,
+                "fontSize": 13,
+                "fontColor": "#666",
+                "fontStyle": "normal",
+                "fontFamily": "helvetica, arial, verdana, sans-serif",
+                "backgroundColor": "#ffffff"
+            }
+        },
+        "autoWidth": true,
+        "rowTranspose": true,
+        "showSummaryColumn": true,
+        "summaryText": "Total",
+        "summaryScript": "console.log(d);\nvalue = 0;\nfor(var i=0;i<d.length;i++)\n{\nvalue = value +d[i];\n}\nvalue = value;",
+        "slNo": false,
+        "excelDownloadMode": "Formatted",
+        "pdfDownloadMode": "Formatted",
+        "textDownloadMode": "Formatted",
+        "showTotalText": "Show",
+        "showTotalPosition": "Show",
+        "aggregation": true,
+        "limit": -1,
+        "pagging": false,
+        "pagesize": 100,
+        "sortBy": "NONE",
+        "sortingMode": "NONE",
+        "sortByConfig": [],
+        "gridColumnGrouping": [],
+        "useColumnGrouping": false,
+        "widgetColumn": false,
+        "widgetColPosition": "start",
+        "showAllRows": false,
+        "gridRowOrder": [],
+        "text": "Grid ComponentWith Row All Transpose",
+        "id": "component-88060152",
+        "selectionType": "row",
+        "showDefaultData": false,
+        "excelDownloadFormat": "xlsx",
+        "downloadFullExcelData": false,
+        "filenameWithTimestamp": false,
+        "excelTimestampFormat": "His",
+        "textDownloadConfig": {
+            "useDelimiter": false,
+            "textDownloadDelimiter": "Comma"
+        },
+        "stickSummary": "None",
+        "filterableGrid": false,
+        "filterableGridCheckImageCls": "default",
+        "excelColumnType": "auto",
+        "showTotalCount": false,
+        "totalCountText": "Total Count",
+        "maxTextLength": 60
+    }
+}

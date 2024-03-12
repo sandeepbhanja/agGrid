@@ -1,0 +1,17 @@
+@import 'ag-grid-community/styles/ag-grid.css';
+/* Quartz Theme Specific CSS */
+@import 'ag-grid-community/styles/ag-theme-quartz.css';
+
+.ag-header-cell {
+    text-align: center !important; /* Use !important to override conflicting styles */
+  }
+
+  .ag-grid-container {
+    display: flex;
+    width: 100%; /* Or any desired width */
+  }
+  
+  .ag-grid-cell {
+    flex: 1; /* Makes each cell expand to fill the available space */
+  }
+  

@@ -1,0 +1,4 @@
+<ag-grid-angular [columnDefs]="colData" [rowData]="rowData | async" class="ag-theme-quartz h-full"
+    style="height: 600px; text-align: center;" (gridReady)="onGridReady($event)"
+    [defaultColDef]="defaultColDef" [rowGroupPanelShow]="'always'" [pivotMode]="true" [groupDefaultExpanded]="groupDefaultExpanded" [pivotDefaultExpanded]="pivotDefaultExpanded" [autoSizeStrategy]="autoSizeStrategy">
+</ag-grid-angular>

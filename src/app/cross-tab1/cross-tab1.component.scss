@@ -2,6 +2,7 @@
 /* Quartz Theme Specific CSS */
 @import 'ag-grid-community/styles/ag-theme-quartz.css';
 
-body{
-    height: 100vh;
-}
+.ag-header-cell {
+    text-align: center !important; /* Use !important to override conflicting styles */
+  }
+  

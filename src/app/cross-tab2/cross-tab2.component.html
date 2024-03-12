@@ -1,0 +1,6 @@
+<div style='height: 100%; display: flex; flex-direction: column;'>
+    <button class="bg-blue-700 p-2 m-2" (click)="transpose()">Transpose</button>
+    <ag-grid-angular [columnDefs]="colData" [rowData]="rowData" (gridReady)="onGridReady($event)"
+        class="ag-theme-quartz h-full" style="height: 100%; width: 100%; text-align: center;" [pagination]="pagination">
+        </ag-grid-angular>
+</div>
